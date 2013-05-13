@@ -47,6 +47,10 @@ h6 {
 	font-family: 'Press Start 2P', cursive;
 }
 
+.ops_color {
+	color: orange;
+}
+
 .home {
   background-image:url("/assets/blackops.jpeg");
   background-size: cover; 
@@ -65,10 +69,10 @@ h6 {
 }
 
 .wrapper {
-  text-align: center;
+  
   background-color: black;
   opacity:0.5;
-  max-width: 400px;
+  max-width: 600px;
   padding: 19px 29px 29px;
   margin: 0 auto 20px;
   border: 2px solid orange;
