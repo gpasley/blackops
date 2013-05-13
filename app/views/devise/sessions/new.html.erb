@@ -1,0 +1,12 @@
+
+<div class="form-signin">
+	<h6>Authorized Personnel Only</h6>
+<%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  <div class="form-inputs">
+    <%= f.input :username, :required => false, :autofocus => true, placeholder: 'Username', label:false %>
+    <%= f.input :password, :required => false, placeholder: 'Password', label:false %>
+	<%= f.button :submit, "Login" %>
+  </div>
+</div>
+<% end %>
+
