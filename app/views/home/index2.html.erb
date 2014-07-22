@@ -1,0 +1,23 @@
+<div class="row-fluid">
+  <div class="span12">
+    <div class="wrapper">
+	<br>
+
+	<p class="title">	Welcome <span class="ops_color"><%= current_user.first_name %>,</span></p>
+
+	<p class="info"><em>**Before continuing, please ensure your commanding officer (parent) has authorized your
+		presence on this website**</em></p>
+
+	<p class="info">	Your mission, should you choose to accept, is to come to Tre’s 13th Black Ops birthday
+		party!!</p>
+
+	<p class="info">	If you choose to accept the mission please proceed for further instructions</p>
+
+	<p class="info">	If you are unable to accept this mission you may return to your home base.</p>
+
+
+<%= link_to "I Accept This Mission", home_mission2_path, :class => 'btn btn-success' %>
+<%= link_to "I Decline This Mission", destroy_user_session_path, :method => :delete, :class => 'btn btn-danger' %>
+    </div>
+  </div>
+</div>

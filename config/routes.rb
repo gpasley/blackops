@@ -3,9 +3,9 @@ Blackops::Application.routes.draw do
   
   devise_for :users
 
-  root :to => 'home#index'
+  root :to => 'home#index2'
   
-  get "home/mission"
+  get "home/mission2"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
